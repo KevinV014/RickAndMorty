@@ -1,0 +1,17 @@
+.container__pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem ;
+    margin-bottom: 1rem;
+}
+
+.btn__pagination{
+    color: #FBFBFB;
+    background-color: #062226;
+    border: 0;
+    height: 40px;
+    aspect-ratio: 1;
+    font-size: 18px;
+    cursor: pointer;
+}

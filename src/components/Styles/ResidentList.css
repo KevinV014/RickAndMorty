@@ -1,0 +1,8 @@
+.ResidentList {
+  display: grid;
+  gap: 15px;
+  grid-auto-rows: auto;
+  justify-content: space-evenly;
+  justify-items: center;
+  grid-template-columns: 150px 150px 150px;
+}

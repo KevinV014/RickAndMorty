@@ -1,0 +1,46 @@
+.background{
+    width: 99%;
+    height: 30em;
+}
+.header__container__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 3.5%;
+    left: 32%;
+}
+
+.header__container{
+    position: relative;
+}
+
+.header__container__input{
+    position: absolute;
+    left: 77.5%;
+    top: 12%;
+}
+
+.input{
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-right: .25rem;
+}
+
+.input::placeholder {
+    font-size: 14px;
+    color: #113;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn{
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+

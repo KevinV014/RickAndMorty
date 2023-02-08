@@ -1,0 +1,38 @@
+.container__localInfo {
+  background-color: #062226;
+  display: grid;
+  margin: 20px auto 40px auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 900px;
+  text-align: center;
+}
+
+.localinfo__li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2,
+h4 {
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.container__localInfo__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container__localInfo_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 5px;
+}

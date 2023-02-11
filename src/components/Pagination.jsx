@@ -5,11 +5,11 @@ import "./Styles/pagination.css";
 const Pagination = ({setPage, RESIDENTS_PERPAGE, location} ) => {
   return (
     <div className='container__pagination'>
-    <button className='btn__pagination'>
+     
         {
-          numbersPage(location, RESIDENTS_PERPAGE).map(numberPage => <li onClick={() => setPage(numberPage)} key={numberPage}>{numberPage}</li>)
+          numbersPage(location, RESIDENTS_PERPAGE).map(numberPage => <button className='btn__pagination' onClick={() => setPage(numberPage)} key={numberPage}>{numberPage}</button>)
         }
-      </button>
+      
       </div>
   )
 }

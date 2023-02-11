@@ -1,6 +1,7 @@
 .background{
-    width: 99%;
+    width: 99.2%;
     height: 30em;
+    border-radius: 10px;
 }
 .header__container__img{
     display: flex;
@@ -30,17 +31,30 @@
     outline: none;
     font-size: 16px;
     margin-right: .25rem;
+    height: 23px;
+    width: 70%;
+    color: #353534;
+    border-radius: 8px;
+    background-color: #ebe8d6bb;
+    font-family: 'Source Sans Pro', sans-serif;
+    caret-width: 10px;
 }
 
 .input::placeholder {
     font-size: 14px;
     color: #113;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn{
     border: 0;
     font-size: 16px;
     cursor: pointer;
+    background-color: #D9E7CB;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    height: 25px;
+    width: 55px;
+    border-radius: 10px;
 }
 

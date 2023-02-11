@@ -10,8 +10,9 @@
     color: #FBFBFB;
     background-color: #062226;
     border: 0;
-    height: 40px;
+    height: 35px;
     aspect-ratio: 1;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
+    margin: 5px;
 }

@@ -11,15 +11,16 @@ import ResidentList from './components/ResidentList';
 
 const RESIDENTS_PERPAGE = 12;
 
-function App() {
+function App() { 
 
   const [location, setLocation] = useState()
   const [nameLocation, setNameLocation] = useState("")
   const [page, setPage] = useState(1)
 
   const handleSubmit = (e) => {
-    e.prevetDefault()
+    e.preventDefault()
     setNameLocation(e.target.idLocation.value)
+    e.target.reset()
   }
 
   const pagination = () => {
@@ -51,7 +52,7 @@ function App() {
         </div>
         <form onSubmit={handleSubmit}>
           <div className='header__container__input'>
-            <input className='input' type="text" id='idLocation' placeholder='type a location id'/>
+            <input className='input' type="text" id='idLocation' placeholder='Type a location id'/>
             <button className='btn'>Search</button>
           </div>
         </form>

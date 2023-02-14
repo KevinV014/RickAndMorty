@@ -5,8 +5,10 @@ const LocationInfo = ({ location }) => {
   return (
     <section className="container__localInfo">
       <div className="container__localInfo_">
+      <li className="localinfo__li">
         <h2>Nombre:</h2>
         <h4 className="localinfo__title"> {location?.name}</h4>
+        </li>
       </div>
 
       <div className="container__localInfo_">

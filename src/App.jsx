@@ -45,18 +45,15 @@ function App() {
 
   return (
     <div className="App">
-      <div className='header__container'>
-        <div className='header__container__img'>
-          <img className='title' src={title} alt="" />
-          <img className='background' src={background1} alt="img" />
-        </div>
-        <form onSubmit={handleSubmit}>
-          <div className='header__container__input'>
-            <input className='input' type="text" id='idLocation' placeholder='Type a location id'/>
+      <img className='image-background' src={background1} alt="img" />
+      <img className='image-title' src={title} alt="" />
+      <form onSubmit={handleSubmit}>
+        <div className='header__container__input'>
+          <input className='input' type="text" id='idLocation' placeholder='Type a location id'/>
             <button className='btn'>Search</button>
-          </div>
-        </form>
-      </div>
+        </div>
+      </form>
+      
       <LocationInfo location={location} />
       <ResidentList pagination={pagination} />
       <Pagination location={location} RESIDENTS_PERPAGE={RESIDENTS_PERPAGE} setPage={setPage} />

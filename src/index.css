@@ -4,15 +4,26 @@
     object-position: 0 30%;
     width: 100%;
 }
+
 .image-title {
     position: absolute;
     top: 3%;
     left: 28%;
     width: 23em;
     animation-name: move;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+@keyframes move {
+    0% {
+        
+        transform: translateY(30%);
+    }
+    100% {
+        transform: translatex(-10%);
+    }
 }
 
 html{

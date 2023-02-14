@@ -2,6 +2,9 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css'
 import background1 from "./assets/backgroundImg1.jpg"
+import background2 from "./assets/backgroundImg2.jpg"
+import background3 from "./assets/backgroundImg3.jpg"
+import background4 from "./assets/backgroundImg4.jpg"
 import title from "./assets/title.svg"
 import LocationInfo from './components/LocationInfo';
 import getRandomNumber from './utils/getRandomNumber';
